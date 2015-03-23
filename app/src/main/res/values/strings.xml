@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TeamManager</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="drawer_array">
+        <item>Games</item>
+        <item>Players</item>
+        <item>Teams</item>
+    </string-array>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="create_new">Create new ...</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_game">GameActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_team">TeamActivity</string>
+    <string name="title_activity_player">PlayerActivity</string>
+
+    <string name="button_restart">Reset</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_start">Start</string>
+
+</resources>

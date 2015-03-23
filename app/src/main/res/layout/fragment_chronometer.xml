@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.perso.fab.teammanager.application.game.ChronoFragment">
+
+    <Chronometer
+        android:id="@+id/chronometer1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:textSize="40sp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/button_start"
+            android:layout_marginLeft="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:shadowColor="#FBEBC5"
+            android:layout_weight="1"
+            android:text="@string/button_start"
+            android:onClick="startChronometer" />
+
+        <Button
+            android:id="@+id/button_stop"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:shadowColor="#959597"
+            android:text="@string/button_stop"
+            android:onClick="stopChronometer" />
+
+        <Button
+            android:id="@+id/button_reset"
+            android:layout_marginRight="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:shadowColor="#959597"
+            android:text="@string/button_restart"
+            android:onClick="restartChronometer" />
+
+    </LinearLayout>
+
+</LinearLayout>
